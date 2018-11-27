@@ -1,0 +1,195 @@
+*{
+    margin:0;padding:0
+}
+
+.top{
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 86px 22px;
+    
+    height: 45px;
+    background-color:#1ABEBF;
+}
+.header{
+    background: rgba(128, 128, 128, 0.22);
+    padding-left: 330px;
+}
+        
+.container{
+    height:40px;
+    width:1000px;
+    text-align:center;
+    line-height: 40px;;
+    }
+        
+.start{
+    float: left;
+    overflow:hidden
+}
+.end{
+    float: right;
+    overflow:hidden
+}
+        
+.container a{
+    margin-right:60px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#333;}
+        
+.start>.icon{
+    display: block;
+    width:19px;
+    height:19px;
+    background:url("img/location.png");
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+
+    }
+.start>.first{
+    margin-left:30px;
+}
+        
+.start,.end{
+    position:relative
+}
+        
+.end>.icon{
+            top:50%;
+            margin-top:-10px;
+            position:absolute;
+            width:19px;
+            height:19px;
+            background:url("img/adm.png")
+        }
+ .end>.adm{
+            padding-left:25px;
+        }
+.start,.end{
+    font-size: 12px;
+    cursor:pointer
+}
+.adm{
+
+    padding-right:64px;
+    margin-right: 100px;
+    
+}
+.sp1{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 874px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    
+}
+.var li{
+    float: left;list-style: none;
+    width: 85px;
+    text-align: center;
+    height:70px;
+        }
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+        }
+.var a{
+    display: block;color: #5D5D5D;text-decoration: none;
+    
+    }
+.var ul{
+    
+    line-height: 50px;
+    background: #EBEBEB;
+    width: 878px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+        }
+    a:hover{
+          width: auto;
+          height: auto;
+          border: 1px solid black;
+          
+    }
+    .content{
+
+        width: 879px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 634px;
+       
+
+
+       }
+       .list>div{
+
+        width: 206px;
+        height: 300px;
+        border: 1px solid #333;
+        background:  #EBEBEB;
+
+       }
+       .list{
+
+        display: flex;
+        justify-content: space-between;
+       }
+       /* img{
+        width: 206px;
+       } */
+
+    .p1{
+        text-align: center;
+        font-size: 15px;
+        color:gray;
+       
+    }
+    .p2{
+        text-align: center; 
+        font-size: 17px;
+        font-weight: bold;
+        color: gray;
+       
+    }
+    .question-3{
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 221px;
+    }
+    .question{
+        background: url("img/small_weixin.png") no-repeat center right; 
+        width: 173px;
+        height: 100px;
+        margin-top: -30px;
+        
+    } 
+    .question-1{
+        font-size: 19px;
+        color: #18BEBE;
+        padding-top: 0;padding-bottom: 0;
+    } 
+    .question-2{
+        color: black;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .ask:after{
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .row:after{
+        content: "";
+        display: block;
+        clear: both;
+            }
+      
